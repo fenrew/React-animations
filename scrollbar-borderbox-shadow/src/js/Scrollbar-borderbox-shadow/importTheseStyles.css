@@ -1,0 +1,14 @@
+.body-no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+}
+/* body::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    } */
+
+.body-no-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
